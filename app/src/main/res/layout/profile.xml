@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/tV_heading"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:background="@android:color/background_dark"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="WHAT'S NEW?"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="206dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="235dp"
+        tools:ignore="MissingConstraints">
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/relativeLayout_profile_header"
+        android:layout_width="534dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="144dp">
+
+
+            <ImageView
+                android:id="@+id/imgView_donor_profile"
+                android:layout_width="111dp"
+                android:layout_height="83dp"
+                android:layout_above="@+id/donor_profile_name"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="133dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/user_icon"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/donor_profile_name"
+                android:layout_width="382dp"
+                android:layout_height="25dp"
+                android:layout_above="@+id/donor_profile_location"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Name"
+                android:textAlignment="center"
+                android:textColor="@color/colorTertiary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="200dp" />
+
+            <TextView
+                android:id="@+id/donor_profile_location"
+                android:layout_width="382dp"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Location"
+                android:textAlignment="center"
+                android:textColor="@color/colorTertiary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/donor_profile_name" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="178dp"
+                android:background="@color/colorSecondary"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/camera_icon" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorSecondary"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backicon" />
+
+    <RelativeLayout
+        android:layout_width="344dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/btn_subscribed_donations"
+            android:layout_width="171dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/subscribed_donations"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_my_donations"
+            android:layout_width="176dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="-3dp"
+            android:layout_toEndOf="@+id/btn_subscribed_donations"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/my_donations"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

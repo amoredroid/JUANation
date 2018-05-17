@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:gravity="top"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/imgBtn_urgentNeeds"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="22dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/background_light"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/urgenticon"
+            tools:ignore="ContentDescription,MissingConstraints,NotSibling,RtlSymmetry,UnknownId,UnusedAttribute" />
+
+        <ImageButton
+            android:id="@+id/imgBtn_fastDonation"
+            android:layout_width="31dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="107dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/background_light"
+            android:paddingLeft="14dp"
+            android:paddingTop="10dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toStartOf="@+id/imgBtn_reccurDonation"
+            app:layout_constraintHorizontal_bias="0.541"
+            app:layout_constraintStart_toEndOf="@+id/imgBtn_urgentNeeds"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:srcCompat="@drawable/fast_donation_icon"
+            tools:ignore="ContentDescription,MissingConstraints,RtlHardcoded,RtlSymmetry,UnusedAttribute" />
+
+        <ImageButton
+            android:id="@+id/imgBtn_reccurDonation"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="124dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/background_light"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ppp"
+            tools:ignore="ContentDescription,MissingConstraints,RtlHardcoded,RtlSymmetry,UnusedAttribute"
+            tools:layout_editor_absoluteX="215dp" />
+
+        <ImageButton
+            android:id="@+id/imgBtn_profile"
+            android:layout_width="24dp"
+            android:layout_height="27dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="36dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/background_light"
+            android:paddingTop="09dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.619"
+            app:layout_constraintStart_toEndOf="@+id/imgBtn_reccurDonation"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/profile_icon"
+            tools:ignore="ContentDescription,UnusedAttribute" />
+
+    </RelativeLayout>
+    <ImageView
+
+        android:id="@+id/imageView6"
+        android:layout_width="418dp"
+        android:layout_height="8dp"
+        android:alpha="0.3"
+        android:background="@android:color/transparent"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/horiz"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>

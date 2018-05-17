@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimary" tools:targetApi="lollipop">@color/colorPrimary</item>
+        <item name="android:colorSecondary" tools:targetApi="n_mr1">@color/colorSecondary</item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/colorAccent</item>
+        <item name="android:textColorTertiary">@color/colorTertiary</item>
+        <item name="android:textColorTertiaryInverse">@color/colorTertiaryInverse</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Cardview... -->
+        <item name="cardViewStyle">@style/CardView</item>
+    </style>
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

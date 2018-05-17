@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">JUANation</string>
+    <string name="urgentNeedsTitle">U R G E N T N E E D S</string>
+    <string name="textview">TextView</string>
+    <string name="upvotes">14, 325</string>
+    <string name="urgentneedstitle">U R G E N T N E E D S</string>
+    <string name="sendHelp">S E N D H E L P</string>
+    <string name="chooseItemToDonate">CHOOSE ITEMS TO DONATE</string>
+    <string name="fastDonation">F A S T   D O N A T I O N</string>
+    <string name="select_a_date_for_your_scheduled_donation">Select a date for your scheduled donation!</string>
+    <string name="every_5th">Every 5th</string>
+    <string name="every_10th">Every 10th</string>
+    <string name="every_15th">Every 15th</string>
+    <string name="every_25th">Every 25th</string>
+    <string name="every_20th">Every 20th</string>
+    <string name="every_30th">Every 30th</string>
+    <string name="not_sure_you_can_always_change_this_anytime">Not sure? You can always change this anytime!</string>
+    <string name="how_would_you_want_to_donate">How would you want to donate?</string>
+    <string name="one_time">ONE TIME</string>
+    <string name="monthly">MONTHLY</string>
+    <string name="cash_donation">CASH DONATION</string>
+    <string name="monthly_donation">MONTHLY DONATION</string>
+    <string name="select_your_favorable_monthly_donation">Select your favorable monthly donation!</string>
+    <string name="or_enter_your_amount">Enter your amount</string>
+    <string name="proceed">PROCEED</string>
+    <string name="fivehundredstory">Your 500 can provide school supplies to 2 in need students.</string>
+    <string name="twohundredstory">Your 200 can provide a street family a meal for one day.</string>
+    <string name="thousandstory">Your 1000 can provide 5 families food to eat, water to drink and some medicines.</string>
+    <string name="your_transaction">YOUR TRANSACTION</string>
+    <string name="quantity_of_donation">Quantity of donation</string>
+    <string name="but_you_can_always_donate_higher_amount">But, you can always donate higher amount!</string>
+    <string name="amount_chosen">AMOUNT CHOSEN</string>
+    <string name="subscribed_donations">SUBSCRIBED DONATIONS</string>
+    <string name="my_donations">MY DONATIONS</string>
+</resources>
